@@ -18,6 +18,7 @@ const config: Config = {
       "heading-lg": ["80px", "80px"],
       "heading-md": ["56px", "64px"],
       "heading-sm": ["32px", "40px"],
+      "heading-xs": ["28px", "36px"],
       body: ["18px", "32px"],
     },
     backgroundImage: {
