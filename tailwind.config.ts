@@ -34,6 +34,8 @@ const config: Config = {
       screens: {
         "2xl": "2048px",
         "xl": "1440px",
+        "md": "769px",
+        "xs": "376px"
       },
       fontFamily: {
         sans: ["var(--font-sans)"],

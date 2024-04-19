@@ -53,12 +53,22 @@ export default function Banner() {
           priority
         />
       </div>
-      <div className="absolute left-0 top-0 -z-10 flex h-[481px] w-screen items-center justify-center sm:hidden">
+      <div className="absolute left-0 top-0 -z-10 hidden h-[481px] w-screen items-center justify-center xs:flex">
+        <Image
+          src={"/images/dark-banner-xs.svg"}
+          className="h-full object-cover object-center"
+          height={481}
+          width={640}
+          alt=""
+          priority
+        />
+      </div>
+      <div className="absolute left-0 top-0 -z-10 flex h-[481px] w-screen items-center justify-center xs:hidden">
         <Image
           src={"/images/dark-banner-mobile.svg"}
           className="h-full object-cover object-center"
           height={481}
-          width={640}
+          width={375}
           alt=""
           priority
         />
@@ -95,7 +105,7 @@ export default function Banner() {
       </div>
       <div className="absolute left-0 top-[504px] -z-20 hidden h-[960px] w-screen items-center justify-center md:flex">
         <Image
-          src={"/images/light-banner-lg.svg"}
+          src={"/images/light-banner-md.svg"}
           className="h-full object-cover object-center"
           height={960}
           width={1024}
@@ -105,7 +115,7 @@ export default function Banner() {
       </div>
       <div className="absolute left-0 top-[403px] -z-20 hidden h-[920px] w-screen items-center justify-center sm:flex">
         <Image
-          src={"/images/light-banner-lg.svg"}
+          src={"/images/light-banner-sm.svg"}
           className="h-full object-cover object-center"
           height={920}
           width={768}
@@ -113,12 +123,22 @@ export default function Banner() {
           priority
         />
       </div>
-      <div className="absolute left-0 top-[392px] -z-20 flex h-[1071px] w-screen items-center justify-center sm:hidden">
+      <div className="absolute left-0 top-[392px] -z-20 hidden h-[1071px] w-screen items-center justify-center xs:flex">
         <Image
-          src={"/images/light-banner-lg.svg"}
+          src={"/images/light-banner-xs.svg"}
           className="h-full object-cover object-center"
           height={1071}
           width={640}
+          alt=""
+          priority
+        />
+      </div>
+      <div className="absolute left-0 top-[392px] -z-20 flex h-[1071px] w-screen items-center justify-center xs:hidden">
+        <Image
+          src={"/images/light-banner-mobile.svg"}
+          className="h-full object-cover object-center"
+          height={1071}
+          width={375}
           alt=""
           priority
         />
