@@ -30,14 +30,6 @@ const config: Config = {
       body: ["18px", "32px"],
       "body-sm": ["16px", "28px"],
     },
-    backgroundImage: {
-      "banner-2xl": "url('/images/banner-2xl.svg')",
-      "banner-xl": "url('/images/banner-xl.svg')",
-      "banner-lg": "url('/images/banner-lg.svg')",
-      "banner-md": "url('/images/banner-md.svg')",
-      "banner-sm": "url('/images/banner-sm.svg')",
-      "banner-mobile": "url('/images/banner-mobile.svg')",
-    },
     extend: {
       screens: {
         "2xl": "2048px",

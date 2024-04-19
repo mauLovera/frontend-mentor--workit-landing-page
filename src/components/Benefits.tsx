@@ -25,7 +25,7 @@ const benefits = [
 export default function Benefits() {
   return (
     <section>
-      <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:gap-12 md:mt-[90px] md:flex-row md:items-start md:gap-[26px]">
+      <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:gap-12 md:mt-[90px] lg:flex-row md:items-start md:gap-[26px]">
         {benefits.map(({ title, description }, index) => (
           <Benefit
             title={title}
