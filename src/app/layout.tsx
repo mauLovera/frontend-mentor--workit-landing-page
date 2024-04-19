@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body className="flex min-h-screen flex-col bg-white px-4 pb-16 pt-8 font-sans text-body sm:px-10 md:px-10 lg:pt-14 2xl:px-[165px]">
-        <div className="absolute left-0 top-0 -z-10 hidden h-[730px] w-screen items-center justify-center 2xl:flex">
+        <div className="absolute -left-1 top-0 -z-10 hidden h-[730px] w-screen items-center justify-center 2xl:flex">
           <Image
             src={"/images/banner-2xl.svg"}
-            className="h-full object-cover object-center"
+            className="h-full object-cover object-center w-screen"
             height={730}
             width={2560}
             alt=""
