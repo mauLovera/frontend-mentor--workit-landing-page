@@ -31,9 +31,12 @@ const config: Config = {
       "body-sm": ["16px", "28px"],
     },
     extend: {
+      screens: {
+        "2xl": "1440px"
+      },
       fontFamily: {
-        sans: ['var(--font-sans)'],
-        serif: ['var(--font-serif)'],
+        sans: ["var(--font-sans)"],
+        serif: ["var(--font-serif)"],
       },
     },
   },
