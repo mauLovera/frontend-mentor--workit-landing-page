@@ -15,8 +15,10 @@ const config: Config = {
       white: "hsl(0, 0%, 100%)",
     },
     fontSize: {
-      "heading-xl": ["80px", "80px"],
-      "heading-lg": ["56px", "64px"],
+      "heading-3xl": ["80px", "80px"],
+      "heading-2xl": ["60px", "60px"],
+      "heading-xl": ["56px", "64px"],
+      "heading-lg": ["50px", "50px"],
       "heading-md": ["48px", "56px"],
       "heading-sm-tall": ["32px", "48px"],
       "heading-sm": ["32px", "40px"],

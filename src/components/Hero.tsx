@@ -5,7 +5,7 @@ import { ButtonOrLink } from "./ButtonOrLink"
 export default function Hero() {
   return (
     <section className="flex flex-col items-center pt-16 text-center">
-      <h1 className="mb-9 font-serif text-[50px] leading-none text-white sm:max-w-[573px] sm:text-[60px] md:max-w-[635px] md:text-heading-lg">
+      <h1 className="mb-9 font-serif text-heading-lg text-white sm:max-w-[573px] sm:text-heading-2xl md:max-w-[635px] md:text-heading-3xl">
         Data{" "}
         <span className="relative after:absolute after:bottom-0 after:left-0 after:mb-[3px] after:h-[3px] after:w-full after:bg-accent after:sm:mb-[5px] after:md:mb-[10px]">
           tailored
