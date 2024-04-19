@@ -2,7 +2,7 @@ import Link from "next/link"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const buttonOrLinkStyles = cva(
-  "flex items-center justify-center font-bold transition-all duration-300 tracking-[0.18px]",
+  "flex items-center justify-center font-bold transition-all duration-300 text-button-sm md:text-button",
   {
     variants: {
       intent: {
