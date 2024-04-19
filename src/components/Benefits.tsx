@@ -1,5 +1,3 @@
-import { serif } from "@/fonts"
-
 interface Benefit {
   title: string
   description: string
@@ -44,15 +42,11 @@ export default function Benefits() {
 function Benefit({ title, description, benefitNumber }: Benefit) {
   return (
     <li className="flex max-w-[354px] flex-col items-center justify-center text-center sm:max-w-full sm:flex-row sm:items-center sm:text-left md:max-w-[354px] md:flex-col md:text-center">
-      <div
-        className={`mb-6 flex aspect-square h-14 items-center justify-center rounded-full border border-primary text-[24px] leading-[40px] sm:mb-0 md:mb-14 ${serif.className}`}
-      >
+      <div className="mb-6 flex aspect-square h-14 items-center justify-center rounded-full border border-primary font-serif text-[24px] leading-[40px] sm:mb-0 md:mb-14">
         {benefitNumber}
       </div>
       <div className="ml-0 flex flex-col self-start sm:ml-8 md:ml-0">
-        <h2
-          className={`${serif.className} text-heading-xs mb-6 sm:mb-4 md:mb-7 md:text-heading-sm`}
-        >
+        <h2 className="mb-6 font-serif text-heading-xs sm:mb-4 md:mb-7 md:text-heading-sm">
           {title}
         </h2>
         <p>{description}</p>
