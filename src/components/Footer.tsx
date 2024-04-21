@@ -7,7 +7,7 @@ import TwitterIcon from "./icons/TwitterIcon"
 
 export default function Footer() {
   return (
-    <footer className="mt-6 flex flex-col items-center gap-[60px]">
+    <footer className="mt-5 flex flex-col items-center gap-[60px]">
       <Link href={"/"}>
         <Logo type="dark" />
       </Link>

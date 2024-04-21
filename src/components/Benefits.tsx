@@ -25,7 +25,7 @@ const benefits = [
 export default function Benefits() {
   return (
     <section>
-      <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:gap-12 md:mt-[90px] md:items-start md:gap-[26px] lg:flex-row">
+      <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:max-lg:px-14 sm:items-start sm:gap-12 lg:mt-[90px] lg:flex-row lg:gap-[26px]">
         {benefits.map(({ title, description }, index) => (
           <Benefit
             title={title}
@@ -41,12 +41,12 @@ export default function Benefits() {
 
 function Benefit({ title, description, benefitNumber }: Benefit) {
   return (
-    <li className="flex max-w-[354px] flex-col items-center justify-center text-center sm:max-w-full sm:flex-row sm:items-center sm:text-left md:max-w-[354px] md:flex-col md:text-center">
-      <div className="mb-6 flex aspect-square h-12 items-center justify-center rounded-full border border-primary font-serif text-list-number-sm sm:mb-0 md:mb-14 md:h-14 md:text-list-number">
+    <li className="flex max-w-[354px] flex-col items-center justify-center text-center sm:max-w-full sm:flex-row sm:justify-start sm:text-left lg:max-w-[354px] lg:flex-col lg:justify-center lg:text-center">
+      <div className="mb-6 flex aspect-square h-12 items-center justify-center rounded-full border border-primary font-serif text-list-number-sm sm:mb-0 md:text-list-number lg:mb-14 lg:h-14">
         {benefitNumber}
       </div>
-      <div className="ml-0 flex flex-col self-start sm:ml-8 md:ml-0">
-        <h2 className="mb-4 font-serif text-heading-xs md:mb-7 md:text-heading-sm">
+      <div className="ml-0 flex flex-col self-start max-lg:sm:ml-8">
+        <h2 className="mb-4 font-serif text-heading-xs lg:mb-7 md:text-heading-sm">
           {title}
         </h2>
         <p className="text-body-sm md:text-body">{description}</p>

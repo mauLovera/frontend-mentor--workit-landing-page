@@ -15,7 +15,8 @@ const config: Config = {
       white: "hsl(0, 0%, 100%)",
     },
     fontSize: {
-      "heading-3xl": ["80px", "80px"],
+      "heading-4xl": ["80px", "80px"],
+      "heading-3xl": ["70px", "70px"],
       "heading-2xl": ["60px", "60px"],
       "heading-xl": ["56px", "64px"],
       "heading-lg": ["50px", "50px"],
@@ -33,9 +34,10 @@ const config: Config = {
     extend: {
       screens: {
         "2xl": "2048px",
-        "xl": "1440px",
-        "md": "769px",
-        "xs": "376px"
+        xl: "1441px",
+        lg: "1025px",
+        md: "769px",
+        xs: "376px",
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
