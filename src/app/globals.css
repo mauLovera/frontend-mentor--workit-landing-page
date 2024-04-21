@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+	* {
+    @apply scroll-smooth;
+  }
+	
 	body {
 		font-size: 18px;
 		line-height: 32px;

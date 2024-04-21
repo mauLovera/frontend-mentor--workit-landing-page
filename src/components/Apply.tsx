@@ -12,8 +12,8 @@ export default function Apply() {
         className="absolute -top-[225px] -z-10 h-[281px] w-[281px] sm:-top-[151px] sm:left-[0] sm:self-start lg:-top-[173px] lg:h-[477px] lg:w-[477px]"
         alt="Louis Graham"
       />
-      <div className="relative flex w-full flex-col items-center bg-primary p-[31px] text-center text-white sm:min-w-[514px lg:max-w-[730px] sm:ml-[174px] lg:ml-[382px] sm:items-start xs:p-14 xs:pt-12 lg:p-16 sm:text-left">
-        <h3 className="mb-4 font-serif text-heading-sm-tall sm:mb-6 xs:text-heading-md md:text-heading-lg">
+      <div className="sm:min-w-[514px relative flex w-full flex-col items-center bg-primary p-8 text-center text-white sm:ml-[174px] sm:items-start sm:p-14 sm:pt-12 sm:text-left lg:ml-[382px] lg:max-w-[730px] lg:p-16">
+        <h3 className="mb-4 font-serif text-heading-sm-tall xs:text-heading-md sm:mb-6 md:text-heading-lg">
           Be the first to test
         </h3>
         <p className="mb-6 text-[16px] text-body-sm leading-[28px] md:text-body">
@@ -22,6 +22,13 @@ export default function Apply() {
           company. Apply for access below and I&apos;ll be in touch to schedule
           a call.
         </p>
+        <Image
+          src={"/images/bg-pattern-3.svg"}
+          alt=""
+          height={212}
+          width={221}
+          className="absolute -bottom-[61px] -right-[25px] hidden sm:flex lg:right-[50px] lg:h-[212px]"
+        />
         <ButtonOrLink>Apply for access</ButtonOrLink>
       </div>
     </section>

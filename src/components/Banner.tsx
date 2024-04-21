@@ -53,11 +53,11 @@ export default function Banner() {
           priority
         />
       </div>
-      <div className="absolute left-0 top-0 -z-10 hidden h-[561px] w-screen items-center justify-center xs:max-sm:flex">
+      <div className="absolute left-0 top-0 -z-10 hidden h-[560px] w-screen items-center justify-center xs:max-sm:flex">
         <Image
           src={"/images/dark-banner-xs.svg"}
           className="h-full object-cover object-center"
-          height={561}
+          height={540}
           width={701}
           alt=""
           priority

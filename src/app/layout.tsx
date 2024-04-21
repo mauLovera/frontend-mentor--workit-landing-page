@@ -5,6 +5,7 @@ import { sans, serif } from "@/fonts"
 import Banner from "@/components/Banner"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import Image from "next/image"
 
 export const metadata: Metadata = {
   title: "Frontend Mentor | Workit Landing Page",
@@ -17,11 +18,26 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${sans.variable} ${serif.variable}`}>
-      <body className="flex min-h-screen flex-col bg-white px-4 pb-16 pt-8 font-sans text-body sm:px-10 md:pt-20 xl:px-[165px]">
+    <html
+      lang="en"
+      className={`${sans.variable} ${serif.variable} overflow-x-hidden`}
+    >
+      <body className="relative flex min-h-screen flex-col  overflow-x-hidden bg-white px-4 pb-16 pt-8 font-sans text-body sm:px-10 md:pt-20 xl:px-[165px]">
+        <Image
+          src={"/images/bg-pattern-1.svg"}
+          alt=""
+          height={317}
+          width={341}
+          className="absolute -left-[257px] top-[80px] hidden sm:-left-[227px] sm:flex md:top-[160px] lg:-left-[138px]"
+        />
+        <Image
+          src={"/images/bg-pattern-2.svg"}
+          alt=""
+          height={174}
+          width={181}
+          className="absolute top-[254px] hidden sm:-right-[93px] sm:flex md:top-[314px] lg:-right-[48px]"
+        />
         <Banner />
-        {/* <div className="absolute left-0 top-[0] -z-10 h-[481px] w-screen bg-primary sm:h-[540px] md:h-[730px]" />
-        <div className="absolute left-0 top-[392px] -z-20 h-[1070.71px] w-screen bg-off-white sm:top-[403px] sm:h-[920.73px] md:top-[504px] md:h-[930px]" /> */}
         <Header />
         {children}
         <Footer />
