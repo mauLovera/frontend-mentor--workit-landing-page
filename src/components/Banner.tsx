@@ -53,12 +53,12 @@ export default function Banner() {
           priority
         />
       </div>
-      <div className="absolute left-0 top-0 -z-10 hidden h-[481px] w-screen items-center justify-center xs:max-sm:flex">
+      <div className="absolute left-0 top-0 -z-10 hidden h-[561px] w-screen items-center justify-center xs:max-sm:flex">
         <Image
           src={"/images/dark-banner-xs.svg"}
           className="h-full object-cover object-center"
-          height={481}
-          width={640}
+          height={561}
+          width={701}
           alt=""
           priority
         />
@@ -123,12 +123,12 @@ export default function Banner() {
           priority
         />
       </div>
-      <div className="absolute left-0 top-[392px] -z-20 hidden h-[1071px] w-screen items-center justify-center xs:max-sm:flex">
+      <div className="absolute left-0 top-[392px] -z-20 hidden h-[1080px] w-screen items-center justify-center xs:max-sm:flex">
         <Image
           src={"/images/light-banner-xs.svg"}
           className="h-full object-cover object-center"
-          height={1071}
-          width={640}
+          height={1070}
+          width={701}
           alt=""
           priority
         />

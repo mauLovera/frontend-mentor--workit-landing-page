@@ -37,6 +37,7 @@ const config: Config = {
         xl: "1441px",
         lg: "1025px",
         md: "769px",
+        sm: "701px",
         xs: "376px",
       },
       fontFamily: {
