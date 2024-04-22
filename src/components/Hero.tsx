@@ -1,14 +1,14 @@
 "use client"
 
 import Image from "next/image"
-import { animate, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 import { ButtonOrLink } from "./ButtonOrLink"
 
 export default function Hero() {
   return (
     <motion.section
-      className="flex flex-col items-center pt-16 text-center sm:pt-14"
+      className="relative flex flex-col items-center pt-16 text-center sm:pt-14"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
