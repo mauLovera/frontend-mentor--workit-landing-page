@@ -5,7 +5,7 @@ import { ButtonOrLink } from "./ButtonOrLink"
 
 export default function Header() {
   return (
-    <header className="flex w-full justify-between">
+    <header className="flex w-full justify-between pt-8 md:pt-14 ">
       <Link href={"/"}>
         <Logo />
       </Link>
