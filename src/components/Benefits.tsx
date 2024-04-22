@@ -46,10 +46,10 @@ function Benefit({ title, description, benefitNumber }: Benefit) {
         {benefitNumber}
       </div>
       <div className="ml-0 flex flex-col self-start max-lg:sm:ml-8">
-        <h2 className="mb-4 font-serif text-heading-xs md:text-heading-sm lg:mb-7">
+        <h2 className="mb-4 font-serif text-heading-xs md:text-heading-sm lg:mb-7 text-primary">
           {title}
         </h2>
-        <p className="text-body-sm md:text-body">{description}</p>
+        <p className="text-body-sm md:text-body text-neutral">{description}</p>
       </div>
     </li>
   )
