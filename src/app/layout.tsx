@@ -1,11 +1,12 @@
+import Image from "next/image"
 import type { Metadata } from "next"
 
-import "./globals.css"
-import { sans, serif } from "@/fonts"
 import Banner from "@/components/Banner"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import Image from "next/image"
+import { sans, serif } from "@/fonts"
+
+import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Frontend Mentor | Workit Landing Page",

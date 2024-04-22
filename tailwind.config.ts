@@ -38,7 +38,7 @@ const config: Config = {
         lg: "1025px",
         md: "769px",
         sm: "701px",
-        xs: "376px",
+        xs: "425px",
       },
       fontFamily: {
         sans: ["var(--font-sans)"],

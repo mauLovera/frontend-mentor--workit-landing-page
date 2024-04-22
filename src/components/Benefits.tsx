@@ -25,7 +25,7 @@ const benefits = [
 export default function Benefits() {
   return (
     <section>
-      <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:max-lg:px-14 sm:items-start sm:gap-12 lg:mt-[90px] lg:flex-row lg:gap-[26px]">
+      <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:items-start sm:gap-12 sm:max-lg:px-14 lg:mt-[90px] lg:flex-row lg:gap-[26px]">
         {benefits.map(({ title, description }, index) => (
           <Benefit
             title={title}
@@ -46,7 +46,7 @@ function Benefit({ title, description, benefitNumber }: Benefit) {
         {benefitNumber}
       </div>
       <div className="ml-0 flex flex-col self-start max-lg:sm:ml-8">
-        <h2 className="mb-4 font-serif text-heading-xs lg:mb-7 md:text-heading-sm">
+        <h2 className="mb-4 font-serif text-heading-xs md:text-heading-sm lg:mb-7">
           {title}
         </h2>
         <p className="text-body-sm md:text-body">{description}</p>

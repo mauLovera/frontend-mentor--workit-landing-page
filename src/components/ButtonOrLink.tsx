@@ -1,5 +1,5 @@
-import Link from "next/link"
 import { cva, type VariantProps } from "class-variance-authority"
+import Link from "next/link"
 
 const buttonOrLinkStyles = cva(
   "flex items-center justify-center font-bold transition-all duration-300 text-button-sm md:text-button w-fit",

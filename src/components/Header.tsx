@@ -1,6 +1,7 @@
 import Link from "next/link"
-import { ButtonOrLink } from "./ButtonOrLink"
+
 import Logo from "./icons/Logo"
+import { ButtonOrLink } from "./ButtonOrLink"
 
 export default function Header() {
   return (

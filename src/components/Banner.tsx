@@ -63,12 +63,12 @@ export default function Banner() {
           priority
         />
       </div>
-      <div className="absolute left-0 top-0 -z-10 flex h-[481px] w-screen items-center justify-center xs:hidden">
+      <div className="absolute left-0 top-0 -z-10 flex -top-[25px] h-[540px] w-screen items-center justify-center xs:hidden">
         <Image
           src={"/images/dark-banner-mobile.svg"}
           className="h-full object-cover object-center"
-          height={481}
-          width={375}
+          height={540}
+          width={425}
           alt=""
           priority
         />

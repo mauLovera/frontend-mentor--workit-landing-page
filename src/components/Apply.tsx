@@ -16,7 +16,7 @@ export default function Apply() {
         <h3 className="mb-4 font-serif text-heading-sm-tall xs:text-heading-md sm:mb-6 md:text-heading-lg">
           Be the first to test
         </h3>
-        <p className="mb-6 text-[16px] text-body-sm leading-[28px] md:text-body">
+        <p className="mb-6 text-body-sm md:text-body">
           Hi, I&apos;m Louis Graham, the founder of the company. Book a demo
           call with me to become a beta tester for our app and kickstart your
           company. Apply for access below and I&apos;ll be in touch to schedule
@@ -27,7 +27,7 @@ export default function Apply() {
           alt=""
           height={212}
           width={221}
-          className="absolute -bottom-[61px] -right-[25px] hidden sm:flex lg:right-[50px] lg:h-[212px]"
+          className="absolute -bottom-[61px] -right-[15px] hidden sm:flex lg:right-[40px] lg:h-[212px]"
         />
         <ButtonOrLink>Apply for access</ButtonOrLink>
       </div>
