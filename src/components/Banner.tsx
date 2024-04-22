@@ -12,10 +12,10 @@ export default function Banner() {
 function DarkBanner() {
   return (
     <>
-      <div className="absolute -left-1 top-0 -z-10 hidden h-[730px] w-screen items-center justify-center 2xl:flex">
+      <div className="absolute left-0 top-0 -z-10 hidden h-[730px] w-screen items-center justify-center 2xl:flex">
         <Image
           src={"/assets/banners/dark-banner-2xl.svg"}
-          className="h-full w-screen object-cover object-center"
+          className="h-full object-cover object-center"
           fill
           alt=""
           priority
@@ -24,7 +24,7 @@ function DarkBanner() {
       <div className="absolute left-0 top-0 -z-10 hidden h-[730px] w-screen items-center justify-center xl:max-2xl:flex">
         <Image
           src={"/assets/banners/dark-banner-xl.svg"}
-          className="h-full w-screen object-cover object-center"
+          className="h-full object-cover object-center"
           fill
           alt=""
           priority
@@ -34,8 +34,7 @@ function DarkBanner() {
         <Image
           src={"/assets/banners/dark-banner-lg.svg"}
           className="h-full object-cover object-center"
-          height={730}
-          width={1441}
+          fill
           alt=""
           priority
         />
@@ -44,8 +43,7 @@ function DarkBanner() {
         <Image
           src={"/assets/banners/dark-banner-md.svg"}
           className="h-full object-cover object-center"
-          height={646}
-          width={1025}
+          fill
           alt=""
           priority
         />
@@ -54,8 +52,7 @@ function DarkBanner() {
         <Image
           src={"/assets/banners/dark-banner-sm.svg"}
           className="h-full object-cover object-center"
-          height={540}
-          width={769}
+          fill
           alt=""
           priority
         />
@@ -64,8 +61,7 @@ function DarkBanner() {
         <Image
           src={"/assets/banners/dark-banner-xs.svg"}
           className="h-full object-cover object-center"
-          height={510}
-          width={701}
+          fill
           alt=""
           priority
         />
@@ -74,8 +70,7 @@ function DarkBanner() {
         <Image
           src={"/assets/banners/dark-banner-mobile.svg"}
           className="h-full object-cover object-center"
-          height={510}
-          width={425}
+          fill
           alt=""
           priority
         />
@@ -90,7 +85,7 @@ function LightBanner() {
       <div className="absolute left-0 top-[504px] -z-20 hidden h-[960px] w-screen items-center justify-center 2xl:flex">
         <Image
           src={"/assets/banners/light-banner-2xl.svg"}
-          className="h-full w-screen object-cover object-center"
+          className="h-full object-cover object-center"
           height={960}
           width={2561}
           alt=""
