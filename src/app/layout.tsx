@@ -23,7 +23,7 @@ export default function RootLayout({
       lang="en"
       className={`${sans.variable} ${serif.variable} overflow-x-hidden`}
     >
-      <body className="relative flex min-h-screen flex-col  overflow-x-hidden bg-white px-4  font-sans text-body sm:px-10 xl:px-[165px]">
+      <body className="relative flex flex-col overflow-x-hidden bg-white px-4  font-sans text-body sm:px-10 xl:px-[165px]">
         <Image
           src={"/assets/bg-patterns/bg-pattern-1.svg"}
           alt=""
