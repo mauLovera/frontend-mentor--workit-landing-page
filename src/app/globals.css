@@ -3,12 +3,32 @@
 @tailwind utilities;
 
 @layer base {
-	* {
+  * {
     @apply scroll-smooth;
   }
-	
-	body {
-		font-size: 18px;
-		line-height: 32px;
-	}
+
+  body {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .animate-underline {
+    &::after {
+      content: "";
+      animation-name: underline;
+      animation-delay: .4s;
+      animation-duration: .9s;
+			animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+      animation-fill-mode: forwards;
+    }
+  }
+
+  @keyframes underline {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
 }

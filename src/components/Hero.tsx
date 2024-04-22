@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { motion } from "framer-motion"
+import { animate, motion } from "framer-motion"
 
 import { ButtonOrLink } from "./ButtonOrLink"
 
@@ -15,7 +15,7 @@ export default function Hero() {
     >
       <h1 className="mb-10 max-w-[400px] font-serif text-heading-lg text-white sm:mb-9 sm:max-w-[573px] sm:text-heading-2xl md:max-w-[635px] md:text-heading-3xl lg:text-heading-4xl">
         Data{" "}
-        <span className="relative after:absolute after:bottom-0 after:left-0 after:mb-[4px] after:h-[3px] after:bg-accent after:sm:mb-[4px] after:md:mb-[7px]">
+        <span className="relative after:absolute after:bottom-0 after:left-0 after:mb-[4px] after:h-[3px] after:bg-accent after:sm:mb-[4px] after:md:mb-[7px] animate-underline">
           tailored
         </span>{" "}
         to <br />
