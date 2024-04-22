@@ -1,3 +1,7 @@
+"use client"
+
+import { motion } from "framer-motion"
+
 interface Benefit {
   title: string
   description: string
@@ -24,7 +28,12 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section>
+    <motion.section
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4 }}
+      viewport={{ amount: "all", once: true }}
+    >
       <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:items-start sm:gap-12 sm:max-lg:px-14 lg:mt-[90px] lg:flex-row lg:gap-[26px]">
         {benefits.map(({ title, description }, index) => (
           <Benefit
@@ -35,7 +44,7 @@ export default function Benefits() {
           />
         ))}
       </ol>
-    </section>
+    </motion.section>
   )
 }
 
@@ -46,10 +55,10 @@ function Benefit({ title, description, benefitNumber }: Benefit) {
         {benefitNumber}
       </div>
       <div className="ml-0 flex flex-col self-start max-lg:sm:ml-8">
-        <h2 className="mb-4 font-serif text-heading-xs md:text-heading-sm lg:mb-7 text-primary">
+        <h2 className="mb-4 font-serif text-heading-xs text-primary md:text-heading-sm lg:mb-7">
           {title}
         </h2>
-        <p className="text-body-sm md:text-body text-neutral">{description}</p>
+        <p className="text-body-sm text-neutral md:text-body">{description}</p>
       </div>
     </li>
   )

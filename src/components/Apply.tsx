@@ -1,10 +1,18 @@
-import Image from "next/image"
+"use client"
 
+import Image from "next/image"
+import { motion } from "framer-motion"
 import { ButtonOrLink } from "./ButtonOrLink"
 
 export default function Apply() {
   return (
-    <section className="relative mx-auto mt-[400px] flex max-w-[1112px] flex-col items-center sm:mt-[355px] sm:flex-row sm:justify-end md:mt-[454px]">
+    <motion.section
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4 }}
+      viewport={{ amount: "all", once: true }}
+      className="relative mx-auto mt-[400px] flex max-w-[1112px] flex-col items-center sm:mt-[355px] sm:flex-row sm:justify-end md:mt-[454px]"
+    >
       <Image
         src={"/assets/images/founder.webp"}
         height={954}
@@ -31,6 +39,6 @@ export default function Apply() {
         />
         <ButtonOrLink>Apply for access</ButtonOrLink>
       </div>
-    </section>
+    </motion.section>
   )
 }
