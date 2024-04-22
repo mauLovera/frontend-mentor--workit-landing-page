@@ -7,7 +7,7 @@ const buttonOrLinkStyles = cva(
     variants: {
       intent: {
         primary:
-          "bg-accent text-primary hover:text-accent hover:bg-primary border-2 border-accent pt-[11px] pb-3 px-6 md:pt-[13px] md:pb-4 md:px-[25px] z-10",
+          "bg-accent text-primary hover:text-accent hover:bg-primary border-2 border-accent pt-[11px] pb-3 px-6 md:pt-[13px] md:pb-4 md:px-[31px] z-10",
         secondary: "text-white border-b-[3px] border-accent hover:text-accent",
       },
     },
@@ -16,7 +16,7 @@ const buttonOrLinkStyles = cva(
     },
   },
 )
-
+  
 export interface Props extends VariantProps<typeof buttonOrLinkStyles> {
   children: React.ReactNode
   href?: string
