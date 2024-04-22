@@ -35,8 +35,8 @@ export default function RootLayout({
         <Image
           src={"/assets/bg-patterns/bg-pattern-2.svg"}
           alt=""
-          height={174}
-          width={181}
+          height={181}
+          width={174}
           priority
           className="absolute top-[254px] hidden sm:-right-[93px] sm:flex md:top-[314px] lg:-right-[48px]"
         />
