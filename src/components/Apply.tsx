@@ -13,7 +13,7 @@ export default function Apply() {
         alt="Louis Graham"
       />
       <div className="sm:min-w-[514px relative flex w-full flex-col items-center bg-primary p-8 text-center text-white sm:ml-[174px] sm:items-start sm:p-14 sm:pt-12 sm:text-left lg:ml-[382px] lg:max-w-[730px] lg:p-16">
-        <h3 className="mb-4 font-serif text-heading-sm-tall xs:text-heading-md sm:mb-6 md:text-heading-lg">
+        <h3 className="mb-4 font-serif text-heading-sm-tall xs:text-heading-md sm:mb-6 md:text-heading-xl">
           Be the first to test
         </h3>
         <p className="mb-6 text-body-sm md:text-body">
