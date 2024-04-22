@@ -50,7 +50,7 @@ function Benefit({ title, description, benefitNumber }: Benefit) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
       viewport={{ amount: "all", once: true }}
-      className="flex max-w-[354px] flex-col items-center justify-center text-center sm:max-w-full sm:flex-row sm:justify-start sm:text-left lg:max-w-[354px] lg:flex-col lg:justify-center lg:text-center"
+      className="flex max-w-[354px] flex-col items-center justify-center text-center sm:max-w-full sm:flex-row sm:justify-start sm:text-left lg:max-w-[354px] lg:flex-col lg:justify-center lg:text-center will-change-transform"
     >
       <div className="mb-6 flex aspect-square h-12 items-center justify-center rounded-full border border-primary font-serif text-list-number-sm sm:mb-0 md:text-list-number lg:mb-14 lg:h-14">
         {benefitNumber}
