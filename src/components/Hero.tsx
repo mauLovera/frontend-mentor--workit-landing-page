@@ -7,11 +7,11 @@ import { ButtonOrLink } from "./ButtonOrLink"
 
 export default function Hero() {
   return (
-    <motion.section
+    <section
       className="relative flex flex-col items-center pt-16 text-center sm:pt-14"
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
+      // initial={{ opacity: 0, y: 10 }}
+      // animate={{ opacity: 1, y: 0 }}
+      // transition={{ duration: 0.4 }}
     >
       <h1 className="mb-10 max-w-[400px] font-serif text-heading-lg text-white sm:mb-9 sm:max-w-[573px] sm:text-heading-2xl md:max-w-[635px] md:text-heading-3xl lg:text-heading-4xl">
         Data{" "}
@@ -31,6 +31,6 @@ export default function Hero() {
           priority
         />
       </div>
-    </motion.section>
+    </section>
   )
 }
