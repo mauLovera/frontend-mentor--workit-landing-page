@@ -29,6 +29,7 @@ export default function RootLayout({
           alt=""
           height={317}
           width={341}
+          priority
           className="absolute -left-[257px] top-[80px] hidden sm:-left-[227px] sm:flex md:top-[160px] lg:-left-[138px]"
         />
         <Image
@@ -36,6 +37,7 @@ export default function RootLayout({
           alt=""
           height={174}
           width={181}
+          priority
           className="absolute top-[254px] hidden sm:-right-[93px] sm:flex md:top-[314px] lg:-right-[48px]"
         />
         <Banner />
