@@ -16,7 +16,7 @@ export default function Hero() {
       <ButtonOrLink>Learn more</ButtonOrLink>
       <div className="relative left-2 mt-16 xs:max-w-[387px] sm:mt-[55px] sm:max-w-[514px] md:max-w-[640px] lg:max-w-[767px]">
         <Image
-          src={"/images/image-hero.webp"}
+          src={"/assets/images/image-hero.webp"}
           height={882}
           width={1534}
           alt="An iPhone13 displaying diagrams"
