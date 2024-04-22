@@ -14,7 +14,7 @@ export default function Banner() {
 function DarkBanner() {
   return (
     <>
-      <div className="absolute left-0 -z-10 hidden h-[730px] w-screen items-center justify-center 2xl:flex">
+      <div className="absolute -left-1 -z-10 hidden h-[730px] w-screen items-center justify-center 2xl:flex">
         <Image
           src={"/assets/banners/dark-banner-2xl.svg"}
           className="w-screen object-cover object-center"
