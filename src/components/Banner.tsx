@@ -16,8 +16,7 @@ function DarkBanner() {
         <Image
           src={"/assets/banners/dark-banner-2xl.svg"}
           className="h-full w-screen object-cover object-center"
-          height={730}
-          width={2561}
+          fill
           alt=""
           priority
         />
@@ -26,8 +25,7 @@ function DarkBanner() {
         <Image
           src={"/assets/banners/dark-banner-xl.svg"}
           className="h-full w-screen object-cover object-center"
-          height={730}
-          width={2049} 
+          fill
           alt=""
           priority
         />
