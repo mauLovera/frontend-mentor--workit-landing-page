@@ -25,9 +25,9 @@ function DarkBanner() {
       <div className="absolute left-0 top-0 -z-10 hidden h-[730px] w-screen items-center justify-center xl:max-2xl:flex">
         <Image
           src={"/assets/banners/dark-banner-xl.svg"}
-          className="h-full object-cover object-center"
+          className="h-full w-screen object-cover object-center"
           height={730}
-          width={2049}
+          width={2049} 
           alt=""
           priority
         />
