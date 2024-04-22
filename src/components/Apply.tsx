@@ -6,7 +6,7 @@ export default function Apply() {
   return (
     <section className="relative mx-auto mt-[400px] flex max-w-[1112px] flex-col items-center sm:mt-[355px] sm:flex-row sm:justify-end md:mt-[454px]">
       <Image
-        src={"/assets/images/image-founder.webp"}
+        src={"/assets/images/founder.webp"}
         height={954}
         width={954}
         className="absolute -top-[225px] -z-10 h-[281px] w-[281px] sm:-top-[151px] sm:left-[0] sm:self-start lg:-top-[173px] lg:h-[477px] lg:w-[477px]"
