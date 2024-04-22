@@ -28,12 +28,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 10 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
-      viewport={{ amount: "all", once: true }}
-    >
+    <section>
       <ol className="mt-16 flex flex-col items-center justify-center gap-10 sm:mt-14 sm:flex-col sm:items-start sm:gap-12 sm:max-lg:px-14 lg:mt-[90px] lg:flex-row lg:gap-[26px]">
         {benefits.map(({ title, description }, index) => (
           <Benefit
@@ -44,13 +39,19 @@ export default function Benefits() {
           />
         ))}
       </ol>
-    </motion.section>
+    </section>
   )
 }
 
 function Benefit({ title, description, benefitNumber }: Benefit) {
   return (
-    <li className="flex max-w-[354px] flex-col items-center justify-center text-center sm:max-w-full sm:flex-row sm:justify-start sm:text-left lg:max-w-[354px] lg:flex-col lg:justify-center lg:text-center">
+    <motion.li
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4 }}
+      viewport={{ amount: "all", once: true }}
+      className="flex max-w-[354px] flex-col items-center justify-center text-center sm:max-w-full sm:flex-row sm:justify-start sm:text-left lg:max-w-[354px] lg:flex-col lg:justify-center lg:text-center"
+    >
       <div className="mb-6 flex aspect-square h-12 items-center justify-center rounded-full border border-primary font-serif text-list-number-sm sm:mb-0 md:text-list-number lg:mb-14 lg:h-14">
         {benefitNumber}
       </div>
@@ -60,6 +61,6 @@ function Benefit({ title, description, benefitNumber }: Benefit) {
         </h2>
         <p className="text-body-sm text-neutral md:text-body">{description}</p>
       </div>
-    </li>
+    </motion.li>
   )
 }

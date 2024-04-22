@@ -10,7 +10,7 @@ export default function Apply() {
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      viewport={{ amount: "all", once: true }}
+      viewport={{ amount: "some", once: true }}
       className="relative mx-auto mt-[400px] flex max-w-[1112px] flex-col items-center sm:mt-[355px] sm:flex-row sm:justify-end md:mt-[454px]"
     >
       <Image
